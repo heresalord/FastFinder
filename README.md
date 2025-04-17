@@ -17,3 +17,21 @@ A powerful terminal-based tool to search for strings inside files (supports `.py
 ```bash
 git clone https://github.com/heresalord/FastFinder.git
 cd file-search-tool
+```
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Usage
+Place the files you want to scan in the static/ folder, then run:
+
+```bash
+python search_tool.py
+Follow the prompts to enter a search term and export results.
+```
+
+Output
+Results can be exported in JSON format inside the export/ folder.
